@@ -192,7 +192,7 @@ bindsym XF86MonBrightnessUp exec light -A 5 # increase screen brightness
 bindsym XF86MonBrightnessDown exec light -U 5 # decrease screen brightness
 
 # Touchpad controls
-bindsym XF86TouchpadToggle exec /home/e13olf/toggletouchpad.sh # toggle touchpad
+bindsym XF86TouchpadToggle exec /home/username/toggletouchpad.sh # toggle touchpad
 
 # Media player controls
 bindsym XF86AudioPlay exec playerctl play
@@ -202,4 +202,4 @@ bindsym XF86AudioPrev exec playerctl previous
 
 bindsym $mod+shift+x exec i3lock -c 000000
 
-exec_always feh --bg-scale /home/e13olf/.wallpaper.jpg
+exec_always feh --bg-scale /home/path-to-your-picture/wallpaper.jpg
